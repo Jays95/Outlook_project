@@ -1,24 +1,24 @@
 # Outlook Addin Project
 
 ## Overview
+This Outlook addin enhances your email reading experience by providing additional contact information for the sender. The project includes a secure backend API with JWT-based authentication. The entire solution is containerized using Docker and Docker Compose.
 
-This project is an Outlook addin that enriches the email reading experience by displaying additional contact information for the sender. It includes a secure backend API with basic authentication using JWT tokens. The entire solution is containerized using Docker and Docker Compose.
+## Features
+- **Contact Information Display:** Get enriched contact details for email senders.
+- **Secure Backend:** Basic authentication using JWT tokens.
+- **Containerized Solution:** Docker and Docker Compose for easy setup and deployment.
 
-## Setup Instructions
+## Getting Started
+Follow these instructions to get the project up and running on your local machine.
 
-### Installing Docker and Docker Compose
+### Prerequisites
+Ensure you have the following installed on your system:
+- Docker: [Install Docker](https://docs.docker.com/get-docker/)
+- Docker Compose: [Install Docker Compose](https://docs.docker.com/compose/install/)
 
-1. **Docker**: Follow the official Docker installation guide [here](https://docs.docker.com/get-docker/).
-2. **Docker Compose**: Follow the official Docker Compose installation guide [here](https://docs.docker.com/compose/install/).
+### Installation
 
-
-### Building and Running the Containers
-
-1. Clone the repository:
-    ```sh
-    git clone https://github.com/Jays95/Outlook_project/
-    cd outlook_project
-    ```
-
-2. Build and run the containers:
-    ```
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/Jays95/Outlook_project/
+   cd outlook_project
