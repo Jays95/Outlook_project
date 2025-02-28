@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  web:
+    build: ../backend
+    ports:
+      - "5000:5000"
+    environment:
+      - SECRET_KEY=your_secret_key
+      - JWT_SECRET_KEY=your_jwt_secret_key
+      - DATABASE_URL=sqlite:///users.db
+    volumes:
+      - ../backend:/app
+
+  db:
+    image: postgres:13
+    environment:
+      POSTGRES_DB: outlook_project
+      POSTGRES_USER: outlook_user
+      POSTGRES_PASSWORD: outlook_pass
+    volumes:
+      - ../database:/docker-entrypoint-initdb.d

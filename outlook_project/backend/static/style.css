@@ -1,0 +1,8 @@
+/* Simple styling for the addin UI */
+body {
+    font-family: Arial, sans-serif;
+}
+
+#login-form, #contact-info {
+    margin: 20px;
+}
