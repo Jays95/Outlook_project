@@ -11,11 +11,12 @@ This project is an Outlook addin that enriches the email reading experience by d
 1. **Docker**: Follow the official Docker installation guide [here](https://docs.docker.com/get-docker/).
 2. **Docker Compose**: Follow the official Docker Compose installation guide [here](https://docs.docker.com/compose/install/).
 
+
 ### Building and Running the Containers
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/yourusername/outlook_project.git
+    git clone https://github.com/Jays95/Outlook_project/
     cd outlook_project
     ```
 
